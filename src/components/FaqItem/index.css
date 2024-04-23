@@ -1,0 +1,28 @@
+/* Write your code here. */
+.each-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first h1 {
+  font-size: 20px;
+}
+.first button {
+  border-width: 0px;
+  background-color: transparent;
+}
+.below {
+  margin-top: 8px;
+}
+.below hr {
+  margin-bottom: 10px;
+}
